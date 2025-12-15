@@ -1,6 +1,7 @@
 import os
 import django
 from django.conf import settings
+from django.core.management import call_command
 
 def pytest_configure():
     """Configure Django settings for pytest."""
@@ -56,3 +57,6 @@ def pytest_configure():
     )
     
     django.setup()
+    
+    # Create database tables
+    call_command('migrate', '--run-syncdb', verbosity=0, interactive=False)

@@ -2,3 +2,5 @@ Django>=3.2
 djangorestframework>=3.12.0
 requests>=2.25.0
 pytest
+pytest-django
+pytest-cov
