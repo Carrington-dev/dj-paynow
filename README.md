@@ -345,7 +345,7 @@ def process_donation(request):
 
 - **GitHub**: [github.com/carrington-dev/dj-paynow](https://github.com/carrington-dev/dj-paynow)
 - **Issues**: [GitHub Issues](https://github.com/carrington-dev/dj-paynow/issues)
-- **Email**: mcrn96m@gmail.com
+- **Email**: carrington.muleya@outlook.com
 - **PayNow Docs**: [paynow.co.zw/developers](https://www.paynow.co.zw/developers)
 
 ## Contributing
@@ -360,7 +360,7 @@ MIT License - See [LICENSE](LICENSE) file
 
 Inspired by:
 - [dj-payfast](https://github.com/carrington-dev/dj-payfast)
-- [paynow-python-sdk](https://github.com/paynow/paynow-python)
+- [dj-stripe](https://github.com/dj-stripe/dj-stripe)
 
 ## Changelog
 
