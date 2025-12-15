@@ -72,12 +72,17 @@ PAYNOW_TEST_MODE = True  # False for production
 
 **Environment Variables (Recommended):**
 
-```python
-import os
+```bash
+pip install dotzen
+```
 
-PAYNOW_INTEGRATION_ID = os.environ.get('PAYNOW_INTEGRATION_ID')
-PAYNOW_INTEGRATION_KEY = os.environ.get('PAYNOW_INTEGRATION_KEY')
-PAYNOW_TEST_MODE = os.environ.get('PAYNOW_TEST_MODE', 'True') == 'True'
+
+```python
+from dotzen import config
+
+PAYNOW_INTEGRATION_ID = config('PAYNOW_INTEGRATION_ID')
+PAYNOW_INTEGRATION_KEY = config('PAYNOW_INTEGRATION_KEY')
+PAYNOW_TEST_MODE = config('PAYNOW_TEST_MODE', 'True') == 'True'
 ```
 
 ### 4. Configure URLs
