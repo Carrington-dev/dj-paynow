@@ -9,7 +9,7 @@ DEBUG = True
 INSTALLED_APPS = [
     "django.contrib.auth",
     "django.contrib.contenttypes",
-    "dj_example",  # your package
+    "paynow",  # your package
 ]
 
 DATABASES = {
