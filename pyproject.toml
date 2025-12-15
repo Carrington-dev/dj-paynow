@@ -52,7 +52,7 @@ docs = [
 
 [project.urls]
 Homepage = "https://github.com/carrington-dev/dj-paynow"
-Documentation = "https://dj-paynow.readthedocs.io/en/latest/#"
+Documentation = "https://dj-paynow.readthedocs.io/en/latest/"
 Repository = "https://github.com/carrington-dev/dj-paynow"
 "Bug Tracker" = "https://github.com/carrington-dev/dj-paynow/issues"
 
