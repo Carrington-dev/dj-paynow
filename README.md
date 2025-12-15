@@ -1,6 +1,3 @@
-# ============================================================================
-# README.md
-# ============================================================================
 # dj-paynow - Django + PayNow Made Easy
 
 [![PyPI version](https://img.shields.io/pypi/v/dj-paynow.svg)](https://pypi.org/project/dj-paynow/)
