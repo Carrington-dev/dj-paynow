@@ -28,7 +28,7 @@ setup(
     project_urls={
         'Bug Reports': 'https://github.com/carrington-dev/dj-paynow/issues',
         'Source': 'https://github.com/carrington-dev/dj-paynow',
-        'Documentation': 'https://carrington-dev.github.io/dj-paynow/',
+        "Documentation": "https://dj-paynow.readthedocs.io/en/latest/",
     },
     packages=find_packages(exclude=['tests*', 'docs*', 'examples*']),
     include_package_data=True,
