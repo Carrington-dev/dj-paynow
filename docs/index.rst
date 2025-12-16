@@ -182,7 +182,7 @@ Quick Start
 
       urlpatterns = [
           ...
-          path('payfast/', include('payfast.urls')),
+          path('paynow/', include('paynow.urls')),
       ]
 
 4. **Run Migrations**
@@ -236,20 +236,20 @@ Documentation Contents
    troubleshooting
    support
 
-PayFast Resources
+PayNow Resources
 -----------------
 
-* `PayFast Website <https://www.payfast.co.za>`_
-* `PayFast API Documentation <https://developers.payfast.co.za>`_
-* `PayFast Integration Guide <https://developers.payfast.co.za/docs#integration>`_
-* `PayFast Sandbox <https://sandbox.payfast.co.za>`_
+* `PayNow Website <https://www.paynow.co.za>`_
+* `PayNow API Documentation <https://developers.paynow.co.za>`_
+* `PayNow Integration Guide <https://developers.paynow.co.za/docs#integration>`_
+* `PayNow Sandbox <https://sandbox.paynow.co.za>`_
 
 Community & Support
 -------------------
 
-* **GitHub**: `github.com/carrington-dev/dj-payfast <https://github.com/carrington-dev/dj-payfast>`_
-* **Issues**: `GitHub Issue Tracker <https://github.com/carrington-dev/dj-payfast/issues>`_
-* **PyPI**: `pypi.org/project/dj-payfast <https://pypi.org/project/dj-payfast>`_
+* **GitHub**: `github.com/carrington-dev/dj-paynow <https://github.com/carrington-dev/dj-paynow>`_
+* **Issues**: `GitHub Issue Tracker <https://github.com/carrington-dev/dj-paynow/issues>`_
+* **PyPI**: `pypi.org/project/dj-paynow <https://pypi.org/project/dj-paynow>`_
 * **Email**: carrington.muleya@outlook.com
 
 Contributing
@@ -266,7 +266,7 @@ We welcome contributions! Please see our :doc:`contributing` guide for details o
 License
 -------
 
-**dj-payfast** is released under the MIT License. See the LICENSE file for details.
+**dj-paynow** is released under the MIT License. See the LICENSE file for details.
 
 Acknowledgments
 ---------------
@@ -277,7 +277,7 @@ This library is inspired by other excellent Django payment libraries:
 * `dj-paypal <https://github.com/dj-paypal/dj-paypal>`_
 * `django-paypal <https://github.com/spookylukey/django-paypal>`_
 
-Special thanks to PayFast for providing a reliable payment gateway for South African businesses.
+Special thanks to PayNow for providing a reliable payment gateway for South African businesses.
 
 Indices and tables
 ==================
