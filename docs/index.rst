@@ -24,7 +24,7 @@ Welcome to dj-paynow's documentation!
 Overview
 --------
 
-paynow is South Africa's leading payment gateway, trusted by thousands of businesses to process online payments securely. **dj-paynow** makes it easy to integrate paynow into your Django projects with minimal configuration.
+PayNow is Zimbabwe's leading payment gateway, trusted by thousands of businesses to process online payments securely. **dj-paynow** makes it easy to integrate paynow into your Django projects with minimal configuration.
 
 Key Features
 ~~~~~~~~~~~~
@@ -136,7 +136,7 @@ Requirements
 * Python 3.8+
 * Django 3.2+
 * requests 2.25.0+
-* A paynow merchant account (get one at `paynow.co.za <https://www.paynow.co.za>`_)
+* A paynow merchant account (get one at `paynow.co.zw <https://www.paynow.co.zw>`_)
 
 Installation
 ------------
@@ -239,10 +239,10 @@ Documentation Contents
 PayNow Resources
 -----------------
 
-* `PayNow Website <https://www.paynow.co.za>`_
-* `PayNow API Documentation <https://developers.paynow.co.za>`_
-* `PayNow Integration Guide <https://developers.paynow.co.za/docs#integration>`_
-* `PayNow Sandbox <https://sandbox.paynow.co.za>`_
+* `PayNow Website <https://www.paynow.co.zw>`_
+* `PayNow API Documentation <https://developers.paynow.co.zw>`_
+* `PayNow Integration Guide <https://developers.paynow.co.zw/docs#integration>`_
+* `PayNow Sandbox <https://sandbox.paynow.co.zw>`_
 
 Community & Support
 -------------------
