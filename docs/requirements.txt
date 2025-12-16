@@ -13,5 +13,5 @@ Django>=3.2
 sphinxcontrib-napoleon>=0.7
 myst-parser>=0.18.0
 
-# dj-payfast dependencies
+# dj-paynow dependencies
 requests>=2.25.0

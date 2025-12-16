@@ -1,11 +1,11 @@
 """
-dj-payfast: Django PayFast Integration Library
-A comprehensive Django library for PayFast payment gateway integration in South Africa
+dj-paynow: Django paynow Integration Library
+A comprehensive Django library for paynow payment gateway integration in South Africa
 
 PROJECT STRUCTURE:
 ==================
 
-dj-payfast/
+dj-paynow/
 ├── README.md
 ├── LICENSE
 ├── setup.py
@@ -13,12 +13,12 @@ dj-payfast/
 ├── MANIFEST.in
 ├── .gitignore
 │
-├── payfast/                          # Main package directory
+├── paynow/                          # Main package directory
 │   ├── __init__.py                   # Package initialization, version info
 │   ├── apps.py                       # Django app configuration
 │   ├── conf.py                       # Settings and configuration
 │   ├── models.py                     # Database models (Payment, Notification)
-│   ├── forms.py                      # PayFast payment form
+│   ├── forms.py                      # paynow payment form
 │   ├── views.py                      # Webhook handler views
 │   ├── utils.py                      # Signature generation, validation
 │   ├── admin.py                      # Django admin configuration
@@ -33,10 +33,10 @@ dj-payfast/
 │   │   ├── __init__.py
 │   │   └── commands/
 │   │       ├── __init__.py
-│   │       └── payfast_test.py       # Test payment command
+│   │       └── paynow_test.py       # Test payment command
 │   │
 │   └── templates/                    # Optional template examples
-│       └── payfast/
+│       └── paynow/
 │           └── payment_form.html     # Example payment template
 │
 ├── tests/                            # Test suite
@@ -64,7 +64,7 @@ dj-payfast/
     │   ├── urls.py
     │   └── wsgi.py
     │
-    └── shop/                         # Example app using dj-payfast
+    └── shop/                         # Example app using dj-paynow
         ├── __init__.py
         ├── views.py
         ├── urls.py
@@ -76,25 +76,25 @@ dj-payfast/
 
 INSTALLATION:
 =============
-pip install dj-payfast
+pip install dj-paynow
 
 SETTINGS.PY CONFIGURATION:
 ==========================
 INSTALLED_APPS = [
     ...
-    'payfast',
+    'paynow',
 ]
 
-PAYFAST_MERCHANT_ID = 'your_merchant_id'
-PAYFAST_MERCHANT_KEY = 'your_merchant_key'
-PAYFAST_PASSPHRASE = 'your_passphrase'
-PAYFAST_TEST_MODE = True
+paynow_MERCHANT_ID = 'your_merchant_id'
+paynow_MERCHANT_KEY = 'your_merchant_key'
+paynow_PASSPHRASE = 'your_passphrase'
+paynow_TEST_MODE = True
 
 URLS.PY CONFIGURATION:
 ======================
 urlpatterns = [
     ...
-    path('payfast/', include('payfast.urls')),
+    path('paynow/', include('paynow.urls')),
 ]
 """
 
@@ -115,7 +115,7 @@ import sys
 import django
 
 sys.path.insert(0, os.path.abspath('..'))
-sys.path.insert(0, os.path.abspath('../payfast'))
+sys.path.insert(0, os.path.abspath('../paynow'))
 
 # Setup Django settings for autodoc
 os.environ['DJANGO_SETTINGS_MODULE'] = 'tests.settings'
@@ -124,7 +124,7 @@ django.setup()
 
 # -- Project information -----------------------------------------------------
 
-project = 'dj-payfast'
+project = 'dj-paynow'
 copyright = '2025, Carrington Muleya'
 author = 'Carrington Muleya'
 
@@ -232,7 +232,7 @@ html_show_sphinx = True
 html_show_copyright = True
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'dj-payfastdoc'
+htmlhelp_basename = 'dj-paynowdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -255,7 +255,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'dj-payfast.tex', 'dj-payfast Documentation',
+    (master_doc, 'dj-paynow.tex', 'dj-paynow Documentation',
      'Carrington Muleya', 'manual'),
 ]
 
@@ -265,7 +265,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'dj-payfast', 'dj-payfast Documentation',
+    (master_doc, 'dj-paynow', 'dj-paynow Documentation',
      [author], 1)
 ]
 
@@ -276,8 +276,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'dj-payfast', 'dj-payfast Documentation',
-     author, 'dj-payfast', 'Django PayFast integration library.',
+    (master_doc, 'dj-paynow', 'dj-paynow Documentation',
+     author, 'dj-paynow', 'Django paynow integration library.',
      'Miscellaneous'),
 ]
 

@@ -359,7 +359,7 @@ MIT License - See [LICENSE](LICENSE) file
 ## Acknowledgments
 
 Inspired by:
-- [dj-payfast](https://github.com/carrington-dev/dj-payfast)
+- [dj-paynow](https://github.com/carrington-dev/dj-paynow)
 - [dj-stripe](https://github.com/dj-stripe/dj-stripe)
 
 ## Changelog
